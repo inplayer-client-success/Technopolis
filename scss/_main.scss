@@ -115,15 +115,17 @@ body{
   @media (max-width: 789px) {
     #nav-wrapper {
       padding: 0;
+
       .nav-container {
         position: relative;
         padding: 20px;
+
         ul {
           flex-direction: column;
           justify-content: center;
           align-items: center;
           position: fixed;
-          background: url("../img/background.jpg");
+          background: #000;
           background-position: center;
           background-size: cover;
           height: 100vh;
@@ -135,16 +137,12 @@ body{
           // top: -400px;
 
           li {
-            margin: 20px 0;
-            text-transform: uppercase;
+            margin: 10px 0;
             color: #fff;
             font-weight: 700;
-            font-size: 1.3em;
           }
 
-          .login-button {
-            margin: 20px 0;
-          }
+         
 
           &.slideInDown {
             display: flex;
