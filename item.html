@@ -13,12 +13,14 @@
   <!-- og tags -->
   <meta property="og:url" content="" />
   <meta property="og:title" content="Technopolis City of Athens" />
-  <meta property="og:description" content="Technopolis City of Athens has become a hub of cultural events, thus upgrading a historic area of the capital and creating another focal point in the cultural identity of Athens. A wide variety of cultural events are held in Technopolis every year: music, dance, theatre and performing arts, plastic and applied arts, educational programs for children, entrepreneurship, and temporary exhibitions, attracting over 1,000,000 people annually." />
+  <meta property="og:description"
+    content="Technopolis City of Athens has become a hub of cultural events, thus upgrading a historic area of the capital and creating another focal point in the cultural identity of Athens. A wide variety of cultural events are held in Technopolis every year: music, dance, theatre and performing arts, plastic and applied arts, educational programs for children, entrepreneurship, and temporary exhibitions, attracting over 1,000,000 people annually." />
   <meta property="og:image" content="" />
 
   <!-- twitter tags -->
   <meta property="twitter:title" content="Technopolis City of Athens">
-  <meta property="twitter:description" content="Technopolis City of Athens has become a hub of cultural events, thus upgrading a historic area of the capital and creating another focal point in the cultural identity of Athens. A wide variety of cultural events are held in Technopolis every year: music, dance, theatre and performing arts, plastic and applied arts, educational programs for children, entrepreneurship, and temporary exhibitions, attracting over 1,000,000 people annually.">
+  <meta property="twitter:description"
+    content="Technopolis City of Athens has become a hub of cultural events, thus upgrading a historic area of the capital and creating another focal point in the cultural identity of Athens. A wide variety of cultural events are held in Technopolis every year: music, dance, theatre and performing arts, plastic and applied arts, educational programs for children, entrepreneurship, and temporary exhibitions, attracting over 1,000,000 people annually.">
   <meta property="twitter:image" content="">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -266,15 +268,17 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
     integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-  <script src="js/paywall.js"></script>
 
   <script type="text/javascript">
     var paywall = new InplayerPaywall('a2179e92-9cc9-4ccb-9a43-8f9c3da5595a', [{
       id: getParameterByName('id')
     }]);
+
     $('#preview-item').html('<div id="inplayer-' + getParameterByName('id') + '" class="inplayer-paywall"></div>');
 
   </script>
+  <script src="js/paywall.js"></script>
+
 </body>
 
 </html>
