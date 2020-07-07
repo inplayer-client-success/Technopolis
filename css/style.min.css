@@ -460,6 +460,7 @@ a.link {
   opacity: .4;
   font-weight: 600;
   margin: 0;
+  font-style: normal;
 }
 
 @media (max-width: 950px) {
