@@ -509,7 +509,7 @@ a.link {
 .package-container .package .package-items .package-item {
   position: relative;
   width: 100%;
-  max-width: 400;
+  max-width: 400px;
   min-width: 253px;
   padding: 4px;
   margin-bottom: 20px;
