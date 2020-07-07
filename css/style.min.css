@@ -83,6 +83,7 @@ h1, h2, h3 {
 a.link {
   text-decoration: underline;
   font-style: italic;
+  color: #fff;
 }
 
 .back-to-top {
@@ -248,7 +249,7 @@ a.link {
   font-weight: 800;
   margin: 0;
   margin-bottom: 30px;
-  font-size: 4.5em;
+  font-size: 3.5em;
 }
 
 #header .header-content .text p {
@@ -274,7 +275,7 @@ a.link {
 
 #header .header-content .social-icons a {
   margin: 10px;
-  opacity: .6;
+  opacity: 1;
   -webkit-transition: 0.3s all  ease-out;
   transition: 0.3s all  ease-out;
 }
@@ -284,7 +285,7 @@ a.link {
 }
 
 #header .header-content .social-icons a:hover {
-  opacity: 1;
+  opacity: .6;
 }
 
 @media (max-width: 660px) {

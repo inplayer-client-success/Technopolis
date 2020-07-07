@@ -36,7 +36,7 @@
         font-weight: 800;
         margin: 0;
         margin-bottom: 30px;
-        font-size: 4.5em;
+        font-size: 3.5em;
       }
       p{
         font-size: 20px;
@@ -55,15 +55,16 @@
 
       a{
         margin: 10px;
-        opacity: .6;
+        opacity: 1;
         @include transition;
+
 
         i{
           font-size: 20px;
         }
 
         &:hover{
-          opacity: 1;
+          opacity: .6;
         }
       }
     }
