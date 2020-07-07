@@ -1,5 +1,4 @@
 #footer{
-  // background: linear-gradient(45deg, #101010, #2F2F2F);
   background: #111;
   color: #fff;
   padding: 40px 20px;
@@ -10,13 +9,8 @@
     margin-top: 0;
   }
 
-
-
   .social-icons{
         a{
-          -ms-transition:0.3s all ease;
-          -moz-transition:0.3s all ease;
-          -webkit-transition:0.3s all ease;
           transition:0.3s all ease;
           cursor: pointer;
 
