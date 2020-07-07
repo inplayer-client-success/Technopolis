@@ -37,12 +37,6 @@
         width: 54%;
         padding-left: 20px;
 
-        .inplayer-title{
-          font-weight: 600;
-          text-align: left;
-          color: #fff;
-          font-size: 1.5em;
-        }
 
         p{
           text-align: left;
@@ -131,10 +125,12 @@
         bottom: 140px;
 
         .inplayer-title{
-          color: #fff;
-          font-weight: 600;
-          text-align: center;
-          font-size: 1.5em;
+          h1, h2, h3, h4, p{
+            font-weight: 600;
+            text-align: center;
+            color: #fff;
+            font-size: 1.5em;
+          }
         }
 
         p{
@@ -196,9 +192,6 @@
         width: 100%;
         box-sizing: border-box;
         padding: 0 4%;
-
-         .inplayer-title{
-         }
        }
 
        .inplayer-buybutton{

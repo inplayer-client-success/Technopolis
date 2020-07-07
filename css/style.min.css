@@ -346,6 +346,10 @@ a.link {
   }
 }
 
+#faq {
+  padding: 50px 30px;
+}
+
 #faq h2 {
   text-align: center;
 }
@@ -638,13 +642,6 @@ a.link {
   padding-left: 20px;
 }
 
-.asset .inplayer-preview-box .inplayer-itemdetails .inplayer-title {
-  font-weight: 600;
-  text-align: left;
-  color: #fff;
-  font-size: 1.5em;
-}
-
 .asset .inplayer-preview-box .inplayer-itemdetails p {
   text-align: left;
   font-weight: 400;
@@ -717,10 +714,10 @@ a.link {
   bottom: 140px;
 }
 
-#preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title {
-  color: #fff;
+#preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h1, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h2, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h3, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h4, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title p {
   font-weight: 600;
   text-align: center;
+  color: #fff;
   font-size: 1.5em;
 }
 
