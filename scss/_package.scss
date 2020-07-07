@@ -20,7 +20,7 @@
         .package-item {
           position: relative;
           width: 100%;
-          max-width: 50%;
+          max-width: 400;
           min-width: 253px;
           padding: 4px;
           margin-bottom: 20px;
@@ -30,11 +30,12 @@
           -webkit-transition: all linear .15s;
 
           .content {
-            height: 300px;
+            // height: 300px;
             padding: 10px;
             background-size: cover;
             background-position: center;
             position: relative;
+            padding-top: 56.25%;
 
             &.active {
               opacity: 0.6; }
