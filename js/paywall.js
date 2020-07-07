@@ -43,7 +43,7 @@ function getParameterByName(name, url) {
       '<a href="./item.html?id=' +
       assetId +
       '" class="overlay-link"></a></div><div class="item-label"><div class="name">';
-    output += assetTitle;
+    output += '<h3>' + assetTitle + '</h3>';
     output += assetDesc;
     output += "</div>";
     output += "</div></div>";
