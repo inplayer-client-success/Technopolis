@@ -32,10 +32,10 @@
       }
 
       .inplayer-itemdetails{
-        bottom: 140px;
-        left: 30px;
-        width: 54%;
-        padding-left: 20px;
+        // bottom: 140px;
+        // left: 30px;
+        // width: 54%;
+        // padding-left: 20px;
 
 
         p{
@@ -103,7 +103,7 @@
       padding: 0;
       background: transparent;
       text-align: center;
-      border: none;
+      border: 1px solid gray;
 
       .inplayer-imageholder{
         &::after{
@@ -122,32 +122,33 @@
 
       .inplayer-itemdetails{
         color: #fff;
-        bottom: 140px;
+        padding: 10px;
+        // bottom: 140px;
 
         .inplayer-title{
           h1, h2, h3, h4, p{
             font-weight: 600;
-            text-align: center;
+            text-align: left;
             color: #fff;
             font-size: 1.5em;
           }
         }
 
         p{
-          display: none;
+          // display: none;
           text-align: left;
           font-weight: 400;
         }
       } // itemdetails
 
       @media (min-width: 645px){
-        .inplayer-itemdetails{
-          position: absolute;
-          left: 50%;
-          top: 45%;
-          transform: translate(-50%, -50%);
-          width: 54%;
-        }
+        // .inplayer-itemdetails{
+        //   position: absolute;
+        //   left: 50%;
+        //   top: 45%;
+        //   transform: translate(-50%, -50%);
+        //   width: 54%;
+        // }
       }
 
       .inplayer-buybutton{
@@ -162,12 +163,12 @@
       }
 
       @media (min-width: 645px){
-        .inplayer-buybutton{
-          position: absolute;
-          left: 50%;
-          top:calc(50% + 60px);
-          transform: translate(-50%, -50%);
-        }
+        // .inplayer-buybutton{
+        //   position: absolute;
+        //   left: 50%;
+        //   top:calc(50% + 60px);
+        //   transform: translate(-50%, -50%);
+        // }
       }
 
       .inplayer-preview-footer{
@@ -192,6 +193,20 @@
         width: 100%;
         box-sizing: border-box;
         padding: 0 4%;
+
+
+  
+          .inplayer-title{
+            h1, h2, h3, h4, p{
+              text-align: center;
+              font-size: 1.5em;
+            }
+          }
+  
+          p{
+            // display: none;
+            text-align: center;
+          }
        }
 
        .inplayer-buybutton{

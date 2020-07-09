@@ -652,13 +652,6 @@ a.link {
   display: none;
 }
 
-.asset .inplayer-preview-box .inplayer-itemdetails {
-  bottom: 140px;
-  left: 30px;
-  width: 54%;
-  padding-left: 20px;
-}
-
 .asset .inplayer-preview-box .inplayer-itemdetails p {
   text-align: left;
   font-weight: 400;
@@ -709,7 +702,7 @@ a.link {
   padding: 0;
   background: transparent;
   text-align: center;
-  border: none;
+  border: 1px solid gray;
 }
 
 #preview-item .inplayer-preview-box .inplayer-imageholder::after {
@@ -728,31 +721,19 @@ a.link {
 
 #preview-item .inplayer-preview-box .inplayer-itemdetails {
   color: #fff;
-  bottom: 140px;
+  padding: 10px;
 }
 
 #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h1, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h2, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h3, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h4, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title p {
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   color: #fff;
   font-size: 1.5em;
 }
 
 #preview-item .inplayer-preview-box .inplayer-itemdetails p {
-  display: none;
   text-align: left;
   font-weight: 400;
-}
-
-@media (min-width: 645px) {
-  #preview-item .inplayer-preview-box .inplayer-itemdetails {
-    position: absolute;
-    left: 50%;
-    top: 45%;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-    width: 54%;
-  }
 }
 
 #preview-item .inplayer-preview-box .inplayer-buybutton {
@@ -762,16 +743,6 @@ a.link {
 #preview-item .inplayer-preview-box .inplayer-buybutton .inplayer-button {
   width: initial;
   min-width: initial;
-}
-
-@media (min-width: 645px) {
-  #preview-item .inplayer-preview-box .inplayer-buybutton {
-    position: absolute;
-    left: 50%;
-    top: calc(50% + 60px);
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-  }
 }
 
 #preview-item .inplayer-preview-box .inplayer-preview-footer {
@@ -791,6 +762,13 @@ a.link {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 0 4%;
+  }
+  #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h1, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h2, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h3, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title h4, #preview-item .inplayer-preview-box .inplayer-itemdetails .inplayer-title p {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  #preview-item .inplayer-preview-box .inplayer-itemdetails p {
+    text-align: center;
   }
   #preview-item .inplayer-preview-box .inplayer-buybutton {
     width: 100%;
