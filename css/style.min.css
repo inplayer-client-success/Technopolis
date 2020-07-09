@@ -599,6 +599,12 @@ a.link {
   font-weight: 600;
 }
 
+@media screen and (max-width: 812px) {
+  .package-container .package .package-items .package-item .item-label .assetDesc {
+    display: none;
+  }
+}
+
 .package-container .package .package-items .package-item:hover .buy-btn {
   opacity: 1;
 }

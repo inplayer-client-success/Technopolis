@@ -40,7 +40,7 @@ function createItemElement(assetId, assetPhoto, assetTitle, assetDesc) {
     assetId +
     '" class="overlay-link"></a></div><div class="item-label"><div class="name">';
   output += '<h3>' + assetTitle + '</h3>';
-  output += assetDesc;
+  output += '<div class="assetDesc">' + assetDesc + '</div>';
   output += "</div>";
   output += "</div></div>";
   return output;
