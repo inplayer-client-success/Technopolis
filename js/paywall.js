@@ -39,7 +39,9 @@ function createItemElement(assetId, assetPhoto, assetTitle, assetDesc) {
     '<a href="./item.html?id=' +
     assetId +
     '" class="overlay-link"></a></div><div class="item-label"><div class="name">';
-  output += '<h3>' + assetTitle + '</h3>';
+  output +=  '<a href="./item.html?id=' +
+  assetId +
+  '" class="overlay-link"><h3>' + assetTitle +'</h3></a>';
   output += '<div class="assetDesc">' + assetDesc + '</div>';
   output += "</div>";
   output += "</div></div>";
